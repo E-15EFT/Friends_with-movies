@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta name="referrer" content="origin">
+    {% load static  %}
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>home</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <link rel='stylesheet' href="{% static 'sty.css' %}">
+        <script defer src=" https://smtpjs.com/v3/smtp.js"></script>
+    </head>
+
+
+
+    <body>
+        
+        <nav>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">𝐈𝐆乡𝐭𝐞𝐚𝐦</a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="/">Home</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="about">Video</a>
+                            </li>
+                          </ul>
+                          <div class="stats" style="left: 5px;">
+                            <p id="point-count">?</p>
+                           
+                         </div>
+                         
+                        
+
+
+
+                    </div>
+                </div>
+            </nav>
+        </nav>
+        <!-- ////////////////////////////////////////////////// -->
+        <div class="bg"></div>
+        <div class="bg bg2"></div>
+        <div class="bg bg3"></div>
+<!-- ............................................ -->
+<form id="div1" style="display: none;" action="https://formsubmit.co/prasenjitsahis233@gmail.com" method="POST">  
+ <div class="ru" > <H4>WITHDRAW - PROCESS..</H4> <BR>
+  <P>YOU will get <span >₹20</span>  rupees on <span >50</span>points</P>
+  <span >₹50</span> rupees on <span >100</span>points.</P>
+<p> 289 points you will get free movie (any) ticket (iMax)
+<p>if you don't want to withdraw now, then <a style="color:#fff ;" href="/">click me</a> </p>  </p></div>
+  <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+  <input name="email" type="text" class="feedback-input" placeholder="Email" />
+  <textarea name="text" class="feedback-input" placeholder="phone number or UPI ID"></textarea>
+  <button class="bgmi" onclick="deleteItems()"><input type="submit" value="SUBMIT"/></button>
+
+
+</form>
+
+<!-- //////////////////////////////////////////// -->
+       
+<div class="custom-model-main">
+    <div class="custom-model-inner">        
+    <div class="close-btn" >X</div>
+        <div class="custom-model-wrap">
+            <div class="pop-up-content-wrap">
+                <div class="container"  >
+                    <div class="coin" id="coin">
+        
+                        <div class="point">
+                            <h1>you get <br> ₹ 1 <br>🤑🤑</h1>
+                        </div>
+                     
+                        <div class="NEXT_TIME">
+                            <h1> Better luck NEXT_TIME  </h1>
+                        </div>
+                     <!--  -->
+                     </div>
+                     <p class="p" >Above 50 you can withdraw</p> <br>
+                     <div class="butt">
+                        <!-- <button class="boom" id="p-button">Flip_Token</button>  -->
+                         <div class="boom" id="p-button" onclick="hideButton(this)">Point_boX</div> 
+
+                        <!-- <button class="boom"  id="n-button">Reset</button> -->
+                        <button class="boom"  id="sm-button">withdraw</button>
+                     </div>
+                     
+                </div>
+            </div>
+        </div>  
+    </div>  
+    <div class="bg-overlay"></div>
+</div> 
+<!-- ............................................ -->
+   
+        
+        {% block content %}
+
+        {% endblock content %}
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+        <script type="text/javascript" src="{% static 'boy/tip.js' %}"></script>
+        <script defer type="text/javascript" src="{% static 'ja.js' %}"></script>
+    </body>
+
+
+
+</html>
+
+    
